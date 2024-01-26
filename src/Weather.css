@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Slab:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(18deg, #4bb5f1 -0.75%, #2f2cbc 100%);
+	height: 100dvh;
+	font-family: Roboto;
+	margin: 0;
+}
+
+main {
+	padding: 40px 0;
+}
+
+h2 {
+	color: #fff;
+	text-align: center;
+	font-family: Calistoga;
+	font-size: 36px;
+	font-weight: 400;
+	margin: 0;
+}
+
+h3 {
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.temp {
+	color: #fff;
+	text-align: center;
+	font-size: 66px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.temp-minimax {
+	display: flex;
+	font-size: 12px;
+	justify-content: center;
+	gap: 20px;
+}
+
+.temp-minimax p {
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 23px;
+}
+
+.weather-icon {
+	display: flex;
+	justify-content: center;
+	color: white;
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.weather-icon svg {
+	width: 100%;
+	height: 100%;
+}
+
+.rectangle {
+	display: flex;
+	justify-content: space-between;
+	max-width: 350px;
+	font-size: 16px;
+	border-radius: 999rem;
+	background-color: rgb(0 16 38 / 30%);
+	margin: 0 auto;
+	color: white;
+	padding: 0 20px;
+}
+
+.rectangle p {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.rectangle svg {
+	width: 20px;
+	height: 20px;
+}
