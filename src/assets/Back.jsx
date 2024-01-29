@@ -1,11 +1,11 @@
-import Cloud from './icons/Could'
-import CloudDrizzle from './icons/CouldDrizzle'
-import CloudRain from './icons/CouldRain'
+import Cloud from './icons/Cloud'
+import CloudDrizzle from './icons/CloudDrizzle'
+import CloudRain from './icons/CloudRain'
 import Sun from './icons/Sun'
-import CloudSnow from './icons/CouldSnow'
-import Thunderstorm from './icons/CouldLighting'
+import CloudSnow from './icons/CloudSnow'
+import Thunderstorm from './icons/CloudLighting'
 import Other from './icons/Other'
-import Rectangle from './Rectangle'
+import Rectangle from './Additionally'
 
 const icons = {
 	Thunderstorm,
@@ -31,10 +31,10 @@ function Back({ data }) {
 			<div className='weather-icon'>
 				<Icon />
 			</div>
-			<p className='temp'>{data.main.temp}C</p>
+			<p className='temp'>{data.main.temp} °C</p>
 			<div className='temp-minimax'>
-				<p>Макс: {data.main.temp_max}C</p>
-				<p>Мин: {data.main.temp_min}C</p>
+				<p>Макс: {data.main.temp_max} °C</p>
+				<p>Мин: {data.main.temp_min} °C</p>
 			</div>
 			<Rectangle data={data} />
 		</main>

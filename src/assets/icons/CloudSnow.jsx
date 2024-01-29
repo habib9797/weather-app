@@ -1,4 +1,4 @@
-function CouldSnow() {
+function CloudSnow() {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
@@ -22,4 +22,4 @@ function CouldSnow() {
 	)
 }
 
-export default CouldSnow
+export default CloudSnow
